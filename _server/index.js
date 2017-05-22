@@ -47,6 +47,7 @@ server.register([Bell, AuthCookie, Inert, Vision], function(err) {
     password: encryptionPassword,
     clientId: process.env.CLIENT_ID || 'CLIENT_ID',
     clientSecret: process.env.CLIENT_SECRET || 'CLIENT_SECRET',
+    isSecure: false,
   };
 
   server.auth.strategy('oauth', 'bell', bellAuthOptions);
