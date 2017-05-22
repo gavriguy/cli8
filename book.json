@@ -1,0 +1,6 @@
+{
+  "root": "book",
+  "plugins": [
+    "toggle-chapters"
+  ]
+}
