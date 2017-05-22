@@ -10,7 +10,6 @@
     "boom": "^4.2.0",
     "dotenv": "^4.0.0",
     "gitbook-cli": "^2.3.0",
-    "gitbook-plugin-toggle-chapters": "0.0.3",
     "handlebars": "^4.0.6",
     "hapi": "^16.1.0",
     "hapi-auth-cookie": "^6.1.1",
